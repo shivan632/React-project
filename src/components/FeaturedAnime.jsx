@@ -1,10 +1,11 @@
 import React from 'react'
+import narutoImg from "../assets/naruto.png"; // correct image import
 
 const FeaturedAnime = () => {
   const featuredAnime = [
     {
       id: 1,
-      image: "./src/assets/naruto.png",
+      image: narutoImg,
       badge: "NEW",
       badgeColor: "primary",
       title: "Demon Slayer: Entertainment District Arc",
@@ -12,7 +13,7 @@ const FeaturedAnime = () => {
     },
     {
       id: 2,
-      image: "./src/assets/naruto.png",
+      image: narutoImg,
       badge: "POPULAR",
       badgeColor: "primary",
       title: "Attack on Titan: The Final Season",
@@ -20,7 +21,7 @@ const FeaturedAnime = () => {
     },
     {
       id: 3,
-      image: "./src/assets/naruto.png",
+      image: narutoImg,
       badge: "TRENDING",
       badgeColor: "secondary",
       title: "My Hero Academia Season 6",

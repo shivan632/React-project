@@ -1,13 +1,14 @@
 import React from 'react'
+import narutoImg from "../assets/naruto.png"; // correct image import
 
 const TrendingAnime = () => {
   const trendingAnime = [
-    { id: 1, image: "./src/assets/naruto.png", title: "Jujutsu Kaisen", genre: "Action" },
-    { id: 2, image: "./src/assets/naruto.png", title: "Attack on Titan", genre: "Action" },
-    { id: 3, image: "./src/assets/naruto.png", title: "Demon Slayer", genre: "Fantasy" },
-    { id: 4, image: "./src/assets/naruto.png", title: "My Hero Academia", genre: "Superhero" },
-    { id: 5, image: "./src/assets/naruto.png", title: "One Piece", genre: "Adventure" },
-    { id: 6, image: "./src/assets/naruto.png", title: "Naruto", genre: "Action" }
+    { id: 1, image: narutoImg, title: "Jujutsu Kaisen", genre: "Action" },
+    { id: 2, image: narutoImg, title: "Attack on Titan", genre: "Action" },
+    { id: 3, image: narutoImg, title: "Demon Slayer", genre: "Fantasy" },
+    { id: 4, image: narutoImg, title: "My Hero Academia", genre: "Superhero" },
+    { id: 5, image: narutoImg, title: "One Piece", genre: "Adventure" },
+    { id: 6, image: narutoImg, title: "Naruto", genre: "Action" }
   ]
 
   return (
