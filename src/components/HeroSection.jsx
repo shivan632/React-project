@@ -1,28 +1,29 @@
 import React from 'react'
+import narutoImg from "../assets/naruto.png"; // correct image import
 
 const HeroSection = () => {
   const animeCards = [
     {
       id: 1,
-      image: "./src/assets/naruto.png",
+      image: narutoImg,
       title: "Demon Slayer",
       genre: "Action, Fantasy"
     },
     {
       id: 2,
-      image: "./src/assets/naruto.png",
+      image: narutoImg,
       title: "Solo Leveling",
       genre: "Action, Adventure"
     },
     {
       id: 3,
-      image: "./src/assets/naruto.png",
+      image: narutoImg,
       title: "My Hero Academia",
       genre: "Superhero, Action"
     },
     {
       id: 4,
-      image: "./src/assets/naruto.png",
+      image: narutoImg,
       title: "The Eminence in Shadow",
       genre: "Fantasy, Action"
     }
